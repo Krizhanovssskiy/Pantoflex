@@ -1,0 +1,36 @@
+.Welcome {
+  height: 100vh;
+  background-color: #e5f2fa;
+  background-image: url('../img/welcome.png');
+  background-repeat: repeat-x;
+  background-size: cover;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    h1 {
+      margin-left: 20px;
+      font-size: 60px;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      margin-right: 35px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
